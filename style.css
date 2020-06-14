@@ -1,0 +1,205 @@
+
+
+body
+{
+    background-color: #DDD;
+    width: 1000px;
+    margin:auto;
+    border:3px outset darkblue
+    border-radius: 10px ;
+	
+}
+header
+{
+    background-color: thistle;
+    margin:auto;
+    width:1000px;
+    height:350px;
+}
+img
+{
+    margin:auto;  
+}
+.primo
+{
+    width:300px;
+    height:200px;
+    position: relative;
+    left: -50px;
+   
+}
+.second
+{
+   
+    width:150px;
+    height:150px;
+    position: relative;
+    left:850px;
+    bottom:82px;  
+}
+.trio
+{
+    width:40px;
+    height:40px; 
+    position: relative;
+    left:-150px;
+    bottom:90px; 
+  
+}
+h2
+{
+    width:40px;
+    height:40px;
+    position: relative;
+    left:60px;
+    bottom:140px;   
+}
+.quatro
+{
+    width:1000px;
+    height:200px;
+} 
+.cinquo
+{
+    width:50px;
+    height:50px; 
+    position: relative;
+    left:-70px;
+    bottom:40px;   
+}
+.sixto
+{
+    width:25px;
+    height:25px; 
+    position: relative;
+    left:-140px;
+    bottom:29px;   
+}
+.septo
+{
+    width:25px;
+    height:25px; 
+    position: relative;
+    left:-169px;
+    bottom:6px;   
+}
+.huito
+{
+    width:30px;
+    height:20px; 
+    position: relative;
+    left:-330px;
+    bottom:168px; 
+}
+.neufto
+
+{
+    height: 150px;
+    width: 500px;
+    position: relative; /*absolut*/
+    left:0px;
+    bottom:-4px;
+
+
+}
+.dixto
+{
+    height: 150px;
+    width: 500px;
+    position: relative; /*absolut*/
+    left: 500px;
+    bottom:150px;  
+}
+.onzto
+{
+    height: 130px;
+    width: 280px;
+    position: relative; /*absolut*/
+    left: 600px;
+    bottom:800px;  
+}
+table
+{
+    margin:auto;
+}
+tr
+{
+    margin:auto;
+    width:400px;
+    height:300px; 
+    border:1px solid#000;
+}    
+    
+th 
+{
+    margin:auto;
+    width:400px;
+    height:300px; 
+    border:1px solid#000;
+}
+
+div
+{
+    width: 300px;
+    height: 220px;
+}
+.six
+
+{
+    background-color: white;
+    width: 1000px;
+    height: 240px;
+    
+}
+
+.sept 
+{
+    background-color:white;
+    height: 237px;
+    width: 700px;
+    position: relative; /*absolut*/
+    left:300px;
+    bottom:250px; /* right,bottom,left*/
+    text-align: justify;
+}
+
+.huit{
+    background-color:#DDD;
+    height: 150px;
+    width: 400px;
+    position: relative; /*absolut*/
+    left:0px;
+    bottom:250px;
+
+}
+.neuf{
+    background-color:#DDD;
+    /*height: 350px;
+    width: 400px;*/
+    position: relative; /*absolut*/
+    left:0px;
+    bottom:550px;
+
+}
+.dix{
+    border:1px solid rgb(194, 191, 219);
+    box-shadow: 0 0 10px #111;
+    background-color:white;
+    height: 280px;
+    width: 1000px;
+    position: relative; /*absolut*/
+    left:0px;
+    bottom:570px;
+}
+fieldset
+{
+    position: relative; /*absolut*/
+    left:0px;
+    bottom:-550px;
+}
+section
+{
+    position: relative; /*absolut*/
+    left:0px;
+    bottom:550px;
+}
