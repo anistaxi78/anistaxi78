@@ -56,17 +56,29 @@
     <!--<div class="huit">div3</div>
     <div class="huit">div3</div>-->
     
-    <from method="post" id="id_from" action="">    
+    <form name="contact" method="POST" data-netlify="true">
         <fieldset from="id_from">
-            <legend><del>Résérvation</del></legend>
-            <pre><p>nom    : <input type="text" name="user_name"></p></pre>
-            <pre><p>prénom : <input type="text" name="user_name"></p></pre>
-            <p><textarea name="article_content" rows="10" cols="60" placeholder="heure adrésse de départ et d'arrivée..........."></textarea></p>
-            <p><input type="submit" name="valid_from" value="envoyer"></p>
-           <!-- <a href="mailto:darcoum@gmx.fr">========>Envoyer un e-mail</a>-->
+            <legend>RESERVATION</legend>
+            <p>
+            <label>Votre Nom: <input type="text" name="name" /></label>   
+            </p>
+            <p>
+                <label>Votre Email: <input type="email" name="email" /></label>
+            </p>
+            <!--<p>
+                <label>Your Role: <select name="role[]" multiple>
+                <option value="leader">Leader</option>
+                <option value="follower">Follower</option>
+                </select></label>
+            </p>-->
+            <p>
+                <label>Message: <textarea name="message"rows="10" cols="60" placeholder="HEURE ADRESSE DE DPART ADRESSE d'ARRIVEE..........."></textarea></label>
+            </p>
+            <p>
+                <button type="submit">Envoyer</button>
+            </p>
         </fieldset>
-    
-    </from>
+    </form>
 
     <section>
         <h1>------ Taxi Conventionné ------</h1>
