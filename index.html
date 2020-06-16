@@ -56,14 +56,18 @@
     <!--<div class="huit">div3</div>
     <div class="huit">div3</div>-->
     
-    <form name="contact" method="POST" data-netlify="true">
-        <fieldset from="id_from">
-            <legend>RESERVATION</legend>
+    <form action="recup_donnes.php" method="POST">
+        
+            <legend><del>RESERVATION</del></legend>
+
             <p>
-            <label>Votre Nom: <input type="text" name="name" /></label>   
+                <label for="nom"> Votre Nom:</label>
+                <input type="text" id="nom" name="lastname" />   
             </p>
+
             <p>
-                <label>Votre Email: <input type="email" name="email" /></label>
+                <label for="Tel"> Votre Tel:</label>
+                <input type="text" id="Tel" name="Tel" />   
             </p>
             <!--<p>
                 <label>Your Role: <select name="role[]" multiple>
@@ -72,13 +76,40 @@
                 </select></label>
             </p>-->
             <p>
+                <label for="memo">message</label>
+                <textarea name="message" id="memo" rows="10" cols="60" 
+                placeholder="HEURE ADRESSE DE DPART ADRESSE d'ARRIVEE..........."></textarea>
+            </p>
+
+            <p>
+                <input type="submit" value="Envoyer">
+            </p>
+       
+    </form>
+    
+    <!--<form name="contact" method="POST" data-netlify="true">
+        <fieldset from="id_from">
+            <legend>RESERVATION</legend>
+            <p>
+            <label>Votre Nom: <input type="text" name="name" /></label>   
+            </p>
+            <p>
+                <label>Votre Email: <input type="email" name="email" /></label>
+            </p>
+            <p>
+                <label>Your Role: <select name="role[]" multiple>
+                <option value="leader">Leader</option>
+                <option value="follower">Follower</option>
+                </select></label>
+            </p>
+            <p>
                 <label>Message: <textarea name="message"rows="10" cols="60" placeholder="HEURE ADRESSE DE DPART ADRESSE d'ARRIVEE..........."></textarea></label>
             </p>
             <p>
                 <button type="submit">Envoyer</button>
             </p>
         </fieldset>
-    </form>
+    </form>-->
 
     <section>
         <h1>------ Taxi Conventionné ------</h1>
