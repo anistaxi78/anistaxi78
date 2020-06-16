@@ -1,6 +1,5 @@
 
 
-
 body
 {
     background-color: #DDD;
@@ -25,7 +24,7 @@ img
 h1
 {
     position: relative;
-    right: -350px;
+    right: -230px;
 }
 h2
 {
@@ -185,13 +184,19 @@ p{
     bottom:250px;
 
 }
+section
+{
+    position: relative; /*absolut*/
+    left:0px;
+    bottom:200px;
+}
 .neuf{
     background-color:rgb(192, 182, 235);
     height: 2px;
     width: 970px;
     position: relative; /*absolut*/
     left:15px;
-    bottom:602px;
+    bottom:150px;
 
 }
 .dix{
@@ -202,21 +207,16 @@ p{
     width: 990px;
     position: relative; /*absolut*/
     left:0px;
-    bottom:380px;
+    bottom:-50px;
     padding: 3px 3px ;
 }
 form
 {
     position: relative; /*absolut*/
     left:0px;
-    bottom:-600px;
+    bottom:-150px;
 }
-section
-{
-    position: relative; /*absolut*/
-    left:0px;
-    bottom:600px;
-}
+
 footer
 {
     position: relative; /*absolut*/
