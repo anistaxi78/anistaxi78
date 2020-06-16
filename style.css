@@ -205,11 +205,11 @@ p{
     bottom:380px;
     padding: 3px 3px ;
 }
-fieldset
+form
 {
     position: relative; /*absolut*/
     left:0px;
-    bottom:-730px;
+    bottom:-600px;
 }
 section
 {
