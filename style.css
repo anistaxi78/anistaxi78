@@ -6,8 +6,8 @@ body
     width: 1000px;
     height:2200px;
     margin:auto;
-    border:3px outset rgb(102, 102, 189);
-    border-radius: 10px ;
+    /*border:3px outset rgb(102, 102, 189);
+    border-radius: 10px ;*/
 	
 }
 header
