@@ -1,225 +1,113 @@
 
-
 body
 {
     background-color: #DDD;
-    width: 1000px;
-    height:2200px;
+    width: 1905px;
+    height:1900px;
     margin:auto;
-    /*border:3px outset rgb(102, 102, 189);
-    border-radius: 10px ;*/
+    border:3px outset rgb(102, 102, 189);
+    border-radius: 10px ;
 	
 }
 header
 {
     background-color: thistle;
-    margin:auto;
-    width:1000px;
-    height:350px;
-}
-img
-{
-    margin:auto;  
-}
-h1
-{
-    position: relative;
-    right: -230px;
-}
-h2
-{
-    width:40px;
-    height:40px;
-    position: relative;
-    left:60px;
-    bottom:140px;   
+   /* margin:auto;
+    /*width:1000px;*/
+    height:550px;
 }
 
-.primo
-{
-    width:300px;
-    height:200px;
-    position: relative;
-    left: -30px;
-   
-}
-.second
-{
-   
-    width:150px;
-    height:150px;
-    position: relative;
-    left:850px;
-    bottom:82px;  
-}
-.trio
-{
-    width:40px;
-    height:40px; 
-    position: relative;
-    left:-150px;
-    bottom:90px; 
-  
-}
+h1    {    position: relative;    left:600px;    bottom:130px; }
 
-.quatro
-{
-    width:1000px;
-    height:200px;
-} 
-.cinquo
-{
-    width:50px;
-    height:50px; 
-    position: relative;
-    left:-60px;
-    bottom:40px;   
-}
-.sixto
-{
-    width:25px;
-    height:25px; 
-    position: relative;
-    left:-130px;
-    bottom:29px;   
-}
-.septo
-{
-    width:25px;
-    height:25px; 
-    position: relative;
-    left:-150px;
-    bottom:6px;   
-}
-.huito
-{
-    width:30px;
-    height:20px; 
-    position: relative;
-    left:-310px;
-    bottom:168px; 
-}
-.neufto
+h2    {  position: relative; left:60px; bottom:160px; }
 
-{
-    height: 150px;
-    width: 500px;
-    position: relative; /*absolut*/
-    left:0px;
-    bottom:-4px;
+.im1  { margin:auto;    width:1905px;    height:400px;} 
 
+.im2  { width:150px;    height:150px;    position: relative;    left:1754px;    bottom:4px; }
 
-}
-.dixto
-{
-    height: 150px;
-    width: 500px;
-    position: relative; /*absolut*/
-    left: 500px;
-    bottom:150px;  
-}
-.onzto
-{
-    height: 130px;
-    width: 280px;
-    position: relative; /*absolut*/
-    left: 600px;
-    bottom:280px;  
-}
-table
-{
-    margin:auto;
-}
-tr
-{
-    margin:auto;
-    width:400px;
-    height:300px; 
-    border:1px solid#000;
-}    
-    
-th 
-{
-    margin:auto;
-    width:400px;
-    height:300px; 
-    border:1px solid#000;
-}
+.im3  { width:50px;    height:70px;     position: relative;    left:-150px;    bottom:05px;}
 
-/*div
-{
-    width: 300px;
-    height: 200px;
-}*/
-.six
+.im4  { width:450px;    height:300px;    position: relative;    left: -20px;}
 
+.im5  { width:70px;    height:70px;    position: relative;    left:-30px;    bottom:60px;  }
+
+.im6  { margin:auto;  width:25px;  height:25px; position: relative; left:-130px;  bottom:29px; }
+
+.im7  { margin:auto; width:25px; height:25px; position: relative; left:-150px; bottom:6px; }
+
+.im8  { margin:auto; width:50px;  height:30px; position: relative; left:-400px; bottom:253px;}
+
+.im9  { height: 250px; width: 950px; position: relative; left:0px; bottom:0px;}
+
+.im10 { height: 250px; width: 950px; position: relative; left: 0px;  bottom:0px;}
+
+.im11 { height: 150px; width: 300px; position: relative; left: 0px;  bottom:15px;}
+
+.im12 { height: 200px; width: 200px; position: relative; left: 1400px;  bottom:0px;}
+
+.di1
 {
+    /*margin:auto;*/
     background-color: white;
-    width: 1000px;
-    height: 240px;
-    
+    height: 300px;
+    width: 1905px;
 }
-
-.sept 
+.di2 
 {
-    background-color:white;
-    height: 237px;
-    width: 700px;
-    position: relative; /*absolut*/
-    left:300px;
-    bottom:250px; /* right,bottom,left*/
-    text-align: justify;
-}
-p{
-    position: relative;
-    text-align: justify;
-    padding: 10px;
-}
-.huit{
     background-color:#DDD;
-    height: 150px;
-    width: 400px;
-    position: relative; /*absolut*/
-    left:0px;
-    bottom:250px;
-
+    height: 270px;
+    width: 1270px;
+    position: relative; 
+    left:600px;
+    bottom:298px;
+    padding: 10px 15px;
 }
-section
+.di3
 {
+    
+    background-color: white;
+    height: 250px;
+    width: 1905px;
     position: relative; /*absolut*/
-    left:0px;
-    bottom:200px;
-}
-.neuf{
-    background-color:rgb(192, 182, 235);
-    height: 2px;
-    width: 970px;
-    position: relative; /*absolut*/
-    left:15px;
-    bottom:150px;
+    /*left:0px;*/
+    bottom:-01px;
 
 }
-.dix{
-    border:1px solid rgb(194, 191, 219);
-    box-shadow: 0 0 10px #111;
+.di4
+{
+    
     background-color:white;
-    height: 280px;
-    width: 990px;
+    height: 210px;
+    width: 1905px;
     position: relative; /*absolut*/
-    left:0px;
-    bottom:-50px;
-    padding: 3px 3px ;
+    /*left:0px;*/
+    bottom:20px;
+
+}
+.di5
+{
+    
+    background-color: #DDD;
+    height: 180px;
+    width: 1400px;
+    position: relative; /*absolut*/
+    left:270px;
+    bottom:199px;
+    padding: 10px;
+
 }
 form
 {
-    position: relative; /*absolut*/
-    left:0px;
-    bottom:-150px;
+    
+    position: relative; 
+    left:100px;
+    bottom:10px;
 }
 
 footer
 {
+    margin:auto;
     position: relative; /*absolut*/
     left:15px;
-    bottom:-220px;  
+    bottom:-80px;  
 }
